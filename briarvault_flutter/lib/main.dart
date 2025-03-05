@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'util.dart';
+
+import 'briarVaultIcons_icons.dart';
 import 'theme.dart';
+import 'util.dart';
 
 void main() {
   runApp(const MyApp());
@@ -43,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+      _counter++; 
     });
   }
 
@@ -64,10 +66,28 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title,textAlign:TextAlign.center),
-        actions: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.star))
-        ],
       ),
+      drawer: Drawer(child:ListView(
+      children: [
+        ListTile(
+         title:Text("Settings"),
+        )
+      ],
+      )),
+      bottomNavigationBar: NavigationBar(destinations:[
+       Column(
+         children: [
+           IconButton(icon: Icon(BriarVaultIcons.smokePipeOutline),onPressed: (){},selectedIcon:Icon(BriarVaultIcons.smokePipe),isSelected:true),
+           Text("My Pipes")
+         ],
+       ),
+       Column(
+         children: [
+           IconButton(icon: Icon(BriarVaultIcons.cellarOutline),onPressed: (){},selectedIcon:Icon(BriarVaultIcons.cellar)),
+           Text("My Cellar")
+         ],
+       ) 
+      ]),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
