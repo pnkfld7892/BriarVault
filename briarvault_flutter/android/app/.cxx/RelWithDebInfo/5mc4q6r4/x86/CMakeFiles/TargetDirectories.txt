@@ -1,0 +1,2 @@
+/Users/elischwarz/git/BriarVault/briarvault_flutter/android/app/.cxx/RelWithDebInfo/5mc4q6r4/x86/CMakeFiles/edit_cache.dir
+/Users/elischwarz/git/BriarVault/briarvault_flutter/android/app/.cxx/RelWithDebInfo/5mc4q6r4/x86/CMakeFiles/rebuild_cache.dir
