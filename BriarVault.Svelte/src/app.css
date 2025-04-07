@@ -1,3 +1,14 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+    --color-emerald: oklch(0.45 0.0976 163.45);
+    --color-burnt-orange: oklch(0.7 0.2002 44.48);
+    --color-cream-beige: oklch(0.92 0.0392 87.56);
+    --color-rust-copper: oklch(0.48 0.0775 51.12);
+    --color-soft-charcoal: oklch(0.35 0 0);
+    --color-dark-olive: oklch(0.45 0.0766 120.37);
+    --color-gold: oklch(0.84 0.1511 88.3);
+
+}

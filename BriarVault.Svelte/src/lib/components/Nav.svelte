@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { toggleMode } from 'mode-watcher';
 	import BriarVaultLogo from './svg/BriarVaultLogo.svelte';
 	import Github from './svg/Github.svelte';
 	let klass: string = '';
@@ -9,7 +10,8 @@
 	<a href="/"> <BriarVaultLogo class="h-24 w-24 rounded-4xl"></BriarVaultLogo></a>
 	<div class="float-end">
 		<a href="https://github.com/pnkfld7892/BriarVault" target="_blank"
-			><Github class="fill-gray-500 h-12 w-12"></Github></a
+			><Github class="fill-gray-500 dark:fill-gray-100 h-12 w-12"></Github></a
 		>
+        <button on:click={toggleMode}>Toggle</button>
 	</div>
 </nav>
