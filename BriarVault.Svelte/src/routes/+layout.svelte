@@ -9,6 +9,6 @@
 <svelte:window />
 <ModeWatcher />
 <main class="max-w-5xl mx-auto">
-    <Nav class="border-b border-b-gray-200"/>
+    <Nav class="border-b border-b-black dark:border-b-gray-200"/>
 	{@render children()}
 </main>

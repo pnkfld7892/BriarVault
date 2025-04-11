@@ -1,7 +1,7 @@
 <script lang='ts'>
+	import Card from "$lib/components/Card.svelte";
+
 
 </script>
 
-<div>
-    <h1>AHHHHHHHHHHHHHHHH</h1>
-</div>
+<Card header="My test head" body="my teast body"></Card>
