@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="BriarVault.Maui" mvid="c1a4af271dbd4f2696f22ef9e38f3533">
+  <java-to-managed>
+    <entry java-name="crc648376d6114e9befc1/MainActivity" managed-name="BriarVault.Maui.MainActivity, BriarVault.Maui" managed-type-token-id="33554451" />
+    <entry java-name="crc648376d6114e9befc1/MainApplication" managed-name="BriarVault.Maui.MainApplication, BriarVault.Maui" managed-type-token-id="33554452" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc648376d6114e9befc1/MainActivity" managed-name="BriarVault.Maui.MainActivity, BriarVault.Maui" managed-type-token-id="33554451" />
+    <entry java-name="crc648376d6114e9befc1/MainApplication" managed-name="BriarVault.Maui.MainApplication, BriarVault.Maui" managed-type-token-id="33554452" />
+  </managed-to-java>
+</api>

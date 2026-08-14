@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xaml-comp compile="true" ?>
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    <!-- Primary -->
+    <Color x:Key="White">#FFFFFF</Color>
+    <Color x:Key="Black">#000</Color>
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <Color x:Key="Gray400">#919191</Color>
+    <Color x:Key="Gray500">#6E6E6E</Color>
+    <Color x:Key="Gray600">#404040</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+
+    <Color x:Key="Primary0">#000000</Color>    <Color x:Key="Primary5">#081400</Color>
+    <Color x:Key="Primary10">#102000</Color>    <Color x:Key="Primary15">#172B00</Color>
+    <Color x:Key="Primary20">#1F3700</Color>    <Color x:Key="Primary25">#264300</Color>
+    <Color x:Key="Primary30">#2F4F00</Color>    <Color x:Key="Primary35">#375C00</Color>
+    <Color x:Key="Primary40">#3F6900</Color>    <Color x:Key="Primary50">#518500</Color>
+    <Color x:Key="Primary60">#64A104</Color>    <Color x:Key="Primary70">#7DBD2A</Color>
+    <Color x:Key="Primary80">#97D945</Color>    <Color x:Key="Primary90">#B2F65F</Color>
+    <Color x:Key="Primary95">#D2FF9B</Color>    <Color x:Key="Primary98">#F0FFD7</Color>
+    <Color x:Key="Primary99">#F9FFE9</Color>    <Color x:Key="Primary100">#FFFFFF</Color>    <!-- Secondary -->
+    <Color x:Key="Secondary0">#000000</Color>    <Color x:Key="Secondary5">#081400</Color>
+    <Color x:Key="Secondary10">#121F04</Color>    <Color x:Key="Secondary15">#1C2A0B</Color>
+    <Color x:Key="Secondary20">#263515</Color>    <Color x:Key="Secondary25">#31401F</Color>
+    <Color x:Key="Secondary30">#3C4C2A</Color>    <Color x:Key="Secondary35">#485734</Color>
+    <Color x:Key="Secondary40">#54643F</Color>    <Color x:Key="Secondary50">#6C7D56</Color>
+    <Color x:Key="Secondary60">#85976E</Color>    <Color x:Key="Secondary70">#A0B187</Color>
+    <Color x:Key="Secondary80">#BBCDA1</Color>    <Color x:Key="Secondary90">#D7E9BB</Color>
+    <Color x:Key="Secondary95">#E5F7C9</Color>    <Color x:Key="Secondary98">#F0FFD7</Color>
+    <Color x:Key="Secondary99">#F9FFE9</Color>    <Color x:Key="Secondary100">#FFFFFF</Color>    <!-- Tertiary -->
+    <Color x:Key="Tertiary0">#000000</Color>    <Color x:Key="Tertiary5">#001413</Color>
+    <Color x:Key="Tertiary10">#00201E</Color>    <Color x:Key="Tertiary15">#002B29</Color>
+    <Color x:Key="Tertiary20">#003735</Color>    <Color x:Key="Tertiary25">#004340</Color>
+    <Color x:Key="Tertiary30">#00504C</Color>    <Color x:Key="Tertiary35">#005D59</Color>
+    <Color x:Key="Tertiary40">#046A66</Color>    <Color x:Key="Tertiary50">#30837F</Color>
+    <Color x:Key="Tertiary60">#4D9D98</Color>    <Color x:Key="Tertiary70">#69B8B3</Color>
+    <Color x:Key="Tertiary80">#85D4CF</Color>    <Color x:Key="Tertiary90">#A1F1EB</Color>
+    <Color x:Key="Tertiary95">#B0FFF9</Color>    <Color x:Key="Tertiary98">#E3FFFC</Color>
+    <Color x:Key="Tertiary99">#F2FFFD</Color>    <Color x:Key="Tertiary100">#FFFFFF</Color>    <!-- Neutral -->
+    <Color x:Key="Neutral0">#000000</Color>    <Color x:Key="Neutral5">#10110D</Color>
+    <Color x:Key="Neutral10">#1B1C18</Color>    <Color x:Key="Neutral15">#252622</Color>
+    <Color x:Key="Neutral20">#30312C</Color>    <Color x:Key="Neutral25">#3B3C37</Color>
+    <Color x:Key="Neutral30">#464742</Color>    <Color x:Key="Neutral35">#52534D</Color>
+    <Color x:Key="Neutral40">#5E5F59</Color>    <Color x:Key="Neutral50">#777771</Color>
+    <Color x:Key="Neutral60">#91918B</Color>    <Color x:Key="Neutral70">#ABACA5</Color>
+    <Color x:Key="Neutral80">#C7C7C0</Color>    <Color x:Key="Neutral90">#E3E3DB</Color>
+    <Color x:Key="Neutral95">#F2F1E9</Color>    <Color x:Key="Neutral98">#FAFAF2</Color>
+    <Color x:Key="Neutral99">#FDFCF5</Color>    <Color x:Key="Neutral100">#FFFFFF</Color>    <!-- Neutral-variant -->
+    <Color x:Key="NeutralVariant0">#000000</Color>    <Color x:Key="NeutralVariant5">#0E120A</Color>
+    <Color x:Key="NeutralVariant10">#191D14</Color>    <Color x:Key="NeutralVariant15">#23271D</Color>
+    <Color x:Key="NeutralVariant20">#2E3228</Color>    <Color x:Key="NeutralVariant25">#393D32</Color>
+    <Color x:Key="NeutralVariant30">#44483D</Color>    <Color x:Key="NeutralVariant35">#505449</Color>
+    <Color x:Key="NeutralVariant40">#5C6054</Color>    <Color x:Key="NeutralVariant50">#75796C</Color>
+    <Color x:Key="NeutralVariant60">#8F9285</Color>    <Color x:Key="NeutralVariant70">#A9AD9F</Color>
+    <Color x:Key="NeutralVariant80">#C5C8BA</Color>    <Color x:Key="NeutralVariant90">#E1E4D5</Color>
+    <Color x:Key="NeutralVariant95">#EFF2E3</Color>    <Color x:Key="NeutralVariant98">#F8FBEB</Color>
+    <Color x:Key="NeutralVariant99">#FBFEEE</Color>    <Color x:Key="NeutralVariant100">#FFFFFF</Color>
+    <!-- Light -->   <Color x:Key="LightPrimary">#4C662B</Color>   <Color x:Key="LightSurfaceTint">#4C662B</Color>
+    <Color x:Key="LightOnPrimary">#FFFFFF</Color>   <Color x:Key="LightPrimaryContainer">#CDEDA3</Color>
+    <Color x:Key="LightOnPrimaryContainer">#354E16</Color>   <Color x:Key="LightSecondary">#586249</Color>
+    <Color x:Key="LightOnSecondary">#FFFFFF</Color>   <Color x:Key="LightSecondaryContainer">#DCE7C8</Color>
+    <Color x:Key="LightOnSecondaryContainer">#404A33</Color>   <Color x:Key="LightTertiary">#386663</Color>
+    <Color x:Key="LightOnTertiary">#FFFFFF</Color>   <Color x:Key="LightTertiaryContainer">#BCECE7</Color>
+    <Color x:Key="LightOnTertiaryContainer">#1F4E4B</Color>   <Color x:Key="LightError">#BA1A1A</Color>
+    <Color x:Key="LightOnError">#FFFFFF</Color>   <Color x:Key="LightErrorContainer">#FFDAD6</Color>
+    <Color x:Key="LightOnErrorContainer">#93000A</Color>   <Color x:Key="LightBackground">#F9FAEF</Color>
+    <Color x:Key="LightOnBackground">#1A1C16</Color>   <Color x:Key="LightSurface">#F9FAEF</Color>
+    <Color x:Key="LightOnSurface">#1A1C16</Color>   <Color x:Key="LightSurfaceVariant">#E1E4D5</Color>
+    <Color x:Key="LightOnSurfaceVariant">#44483D</Color>   <Color x:Key="LightOutline">#75796C</Color>
+    <Color x:Key="LightOutlineVariant">#C5C8BA</Color>   <Color x:Key="LightShadow">#000000</Color>
+    <Color x:Key="LightScrim">#000000</Color>   <Color x:Key="LightInverseSurface">#2F312A</Color>
+    <Color x:Key="LightInverseOnSurface">#F1F2E6</Color>   <Color x:Key="LightInversePrimary">#B1D18A</Color>
+    <Color x:Key="LightPrimaryFixed">#CDEDA3</Color>   <Color x:Key="LightOnPrimaryFixed">#102000</Color>
+    <Color x:Key="LightPrimaryFixedDim">#B1D18A</Color>   <Color x:Key="LightOnPrimaryFixedVariant">#354E16</Color>
+    <Color x:Key="LightSecondaryFixed">#DCE7C8</Color>   <Color x:Key="LightOnSecondaryFixed">#151E0B</Color>
+    <Color x:Key="LightSecondaryFixedDim">#BFCBAD</Color>   <Color x:Key="LightOnSecondaryFixedVariant">#404A33</Color>
+    <Color x:Key="LightTertiaryFixed">#BCECE7</Color>   <Color x:Key="LightOnTertiaryFixed">#00201E</Color>
+    <Color x:Key="LightTertiaryFixedDim">#A0D0CB</Color>   <Color x:Key="LightOnTertiaryFixedVariant">#1F4E4B</Color>
+    <Color x:Key="LightSurfaceDim">#DADBD0</Color>   <Color x:Key="LightSurfaceBright">#F9FAEF</Color>
+    <Color x:Key="LightSurfaceContainerLowest">#FFFFFF</Color>
+    <Color x:Key="LightSurfaceContainerLow">#F3F4E9</Color>   <Color x:Key="LightSurfaceContainer">#EEEFE3</Color>
+    <Color x:Key="LightSurfaceContainerHigh">#E8E9DE</Color>
+    <Color x:Key="LightSurfaceContainerHighest">#E2E3D8</Color>    <!-- Light-Medium-Contrast -->
+    <Color x:Key="LightMediumContrastPrimary">#253D05</Color>
+    <Color x:Key="LightMediumContrastSurfaceTint">#4C662B</Color>
+    <Color x:Key="LightMediumContrastOnPrimary">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastPrimaryContainer">#5A7539</Color>
+    <Color x:Key="LightMediumContrastOnPrimaryContainer">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastSecondary">#303924</Color>
+    <Color x:Key="LightMediumContrastOnSecondary">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastSecondaryContainer">#667157</Color>
+    <Color x:Key="LightMediumContrastOnSecondaryContainer">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastTertiary">#083D3A</Color>
+    <Color x:Key="LightMediumContrastOnTertiary">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastTertiaryContainer">#477572</Color>
+    <Color x:Key="LightMediumContrastOnTertiaryContainer">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastError">#740006</Color>   <Color x:Key="LightMediumContrastOnError">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastErrorContainer">#CF2C27</Color>
+    <Color x:Key="LightMediumContrastOnErrorContainer">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastBackground">#F9FAEF</Color>
+    <Color x:Key="LightMediumContrastOnBackground">#1A1C16</Color>
+    <Color x:Key="LightMediumContrastSurface">#F9FAEF</Color>
+    <Color x:Key="LightMediumContrastOnSurface">#0F120C</Color>
+    <Color x:Key="LightMediumContrastSurfaceVariant">#E1E4D5</Color>
+    <Color x:Key="LightMediumContrastOnSurfaceVariant">#34382D</Color>
+    <Color x:Key="LightMediumContrastOutline">#505449</Color>
+    <Color x:Key="LightMediumContrastOutlineVariant">#6B6F62</Color>
+    <Color x:Key="LightMediumContrastShadow">#000000</Color>   <Color x:Key="LightMediumContrastScrim">#000000</Color>
+    <Color x:Key="LightMediumContrastInverseSurface">#2F312A</Color>
+    <Color x:Key="LightMediumContrastInverseOnSurface">#F1F2E6</Color>
+    <Color x:Key="LightMediumContrastInversePrimary">#B1D18A</Color>
+    <Color x:Key="LightMediumContrastPrimaryFixed">#5A7539</Color>
+    <Color x:Key="LightMediumContrastOnPrimaryFixed">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastPrimaryFixedDim">#425C23</Color>
+    <Color x:Key="LightMediumContrastOnPrimaryFixedVariant">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastSecondaryFixed">#667157</Color>
+    <Color x:Key="LightMediumContrastOnSecondaryFixed">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastSecondaryFixedDim">#4E5840</Color>
+    <Color x:Key="LightMediumContrastOnSecondaryFixedVariant">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastTertiaryFixed">#477572</Color>
+    <Color x:Key="LightMediumContrastOnTertiaryFixed">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastTertiaryFixedDim">#2E5C59</Color>
+    <Color x:Key="LightMediumContrastOnTertiaryFixedVariant">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastSurfaceDim">#C6C7BD</Color>
+    <Color x:Key="LightMediumContrastSurfaceBright">#F9FAEF</Color>
+    <Color x:Key="LightMediumContrastSurfaceContainerLowest">#FFFFFF</Color>
+    <Color x:Key="LightMediumContrastSurfaceContainerLow">#F3F4E9</Color>
+    <Color x:Key="LightMediumContrastSurfaceContainer">#E8E9DE</Color>
+    <Color x:Key="LightMediumContrastSurfaceContainerHigh">#DCDED3</Color>
+    <Color x:Key="LightMediumContrastSurfaceContainerHighest">#D1D3C8</Color>    <!-- Light-High-Contrast -->
+    <Color x:Key="LightHighContrastPrimary">#1C3200</Color>
+    <Color x:Key="LightHighContrastSurfaceTint">#4C662B</Color>
+    <Color x:Key="LightHighContrastOnPrimary">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastPrimaryContainer">#375018</Color>
+    <Color x:Key="LightHighContrastOnPrimaryContainer">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastSecondary">#262F1A</Color>
+    <Color x:Key="LightHighContrastOnSecondary">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastSecondaryContainer">#434C35</Color>
+    <Color x:Key="LightHighContrastOnSecondaryContainer">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastTertiary">#003230</Color>
+    <Color x:Key="LightHighContrastOnTertiary">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastTertiaryContainer">#21504E</Color>
+    <Color x:Key="LightHighContrastOnTertiaryContainer">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastError">#600004</Color>   <Color x:Key="LightHighContrastOnError">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastErrorContainer">#98000A</Color>
+    <Color x:Key="LightHighContrastOnErrorContainer">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastBackground">#F9FAEF</Color>
+    <Color x:Key="LightHighContrastOnBackground">#1A1C16</Color>
+    <Color x:Key="LightHighContrastSurface">#F9FAEF</Color>   <Color x:Key="LightHighContrastOnSurface">#000000</Color>
+    <Color x:Key="LightHighContrastSurfaceVariant">#E1E4D5</Color>
+    <Color x:Key="LightHighContrastOnSurfaceVariant">#000000</Color>
+    <Color x:Key="LightHighContrastOutline">#2A2D24</Color>
+    <Color x:Key="LightHighContrastOutlineVariant">#474B40</Color>
+    <Color x:Key="LightHighContrastShadow">#000000</Color>   <Color x:Key="LightHighContrastScrim">#000000</Color>
+    <Color x:Key="LightHighContrastInverseSurface">#2F312A</Color>
+    <Color x:Key="LightHighContrastInverseOnSurface">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastInversePrimary">#B1D18A</Color>
+    <Color x:Key="LightHighContrastPrimaryFixed">#375018</Color>
+    <Color x:Key="LightHighContrastOnPrimaryFixed">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastPrimaryFixedDim">#213903</Color>
+    <Color x:Key="LightHighContrastOnPrimaryFixedVariant">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastSecondaryFixed">#434C35</Color>
+    <Color x:Key="LightHighContrastOnSecondaryFixed">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastSecondaryFixedDim">#2C3620</Color>
+    <Color x:Key="LightHighContrastOnSecondaryFixedVariant">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastTertiaryFixed">#21504E</Color>
+    <Color x:Key="LightHighContrastOnTertiaryFixed">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastTertiaryFixedDim">#033937</Color>
+    <Color x:Key="LightHighContrastOnTertiaryFixedVariant">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastSurfaceDim">#B8BAAF</Color>
+    <Color x:Key="LightHighContrastSurfaceBright">#F9FAEF</Color>
+    <Color x:Key="LightHighContrastSurfaceContainerLowest">#FFFFFF</Color>
+    <Color x:Key="LightHighContrastSurfaceContainerLow">#F1F2E6</Color>
+    <Color x:Key="LightHighContrastSurfaceContainer">#E2E3D8</Color>
+    <Color x:Key="LightHighContrastSurfaceContainerHigh">#D4D5CA</Color>
+    <Color x:Key="LightHighContrastSurfaceContainerHighest">#C6C7BD</Color>    <!-- Dark -->
+    <Color x:Key="DarkPrimary">#B1D18A</Color>   <Color x:Key="DarkSurfaceTint">#B1D18A</Color>
+    <Color x:Key="DarkOnPrimary">#1F3701</Color>   <Color x:Key="DarkPrimaryContainer">#354E16</Color>
+    <Color x:Key="DarkOnPrimaryContainer">#CDEDA3</Color>   <Color x:Key="DarkSecondary">#BFCBAD</Color>
+    <Color x:Key="DarkOnSecondary">#2A331E</Color>   <Color x:Key="DarkSecondaryContainer">#404A33</Color>
+    <Color x:Key="DarkOnSecondaryContainer">#DCE7C8</Color>   <Color x:Key="DarkTertiary">#A0D0CB</Color>
+    <Color x:Key="DarkOnTertiary">#003735</Color>   <Color x:Key="DarkTertiaryContainer">#1F4E4B</Color>
+    <Color x:Key="DarkOnTertiaryContainer">#BCECE7</Color>   <Color x:Key="DarkError">#FFB4AB</Color>
+    <Color x:Key="DarkOnError">#690005</Color>   <Color x:Key="DarkErrorContainer">#93000A</Color>
+    <Color x:Key="DarkOnErrorContainer">#FFDAD6</Color>   <Color x:Key="DarkBackground">#12140E</Color>
+    <Color x:Key="DarkOnBackground">#E2E3D8</Color>   <Color x:Key="DarkSurface">#12140E</Color>
+    <Color x:Key="DarkOnSurface">#E2E3D8</Color>   <Color x:Key="DarkSurfaceVariant">#44483D</Color>
+    <Color x:Key="DarkOnSurfaceVariant">#C5C8BA</Color>   <Color x:Key="DarkOutline">#8F9285</Color>
+    <Color x:Key="DarkOutlineVariant">#44483D</Color>   <Color x:Key="DarkShadow">#000000</Color>
+    <Color x:Key="DarkScrim">#000000</Color>   <Color x:Key="DarkInverseSurface">#E2E3D8</Color>
+    <Color x:Key="DarkInverseOnSurface">#2F312A</Color>   <Color x:Key="DarkInversePrimary">#4C662B</Color>
+    <Color x:Key="DarkPrimaryFixed">#CDEDA3</Color>   <Color x:Key="DarkOnPrimaryFixed">#102000</Color>
+    <Color x:Key="DarkPrimaryFixedDim">#B1D18A</Color>   <Color x:Key="DarkOnPrimaryFixedVariant">#354E16</Color>
+    <Color x:Key="DarkSecondaryFixed">#DCE7C8</Color>   <Color x:Key="DarkOnSecondaryFixed">#151E0B</Color>
+    <Color x:Key="DarkSecondaryFixedDim">#BFCBAD</Color>   <Color x:Key="DarkOnSecondaryFixedVariant">#404A33</Color>
+    <Color x:Key="DarkTertiaryFixed">#BCECE7</Color>   <Color x:Key="DarkOnTertiaryFixed">#00201E</Color>
+    <Color x:Key="DarkTertiaryFixedDim">#A0D0CB</Color>   <Color x:Key="DarkOnTertiaryFixedVariant">#1F4E4B</Color>
+    <Color x:Key="DarkSurfaceDim">#12140E</Color>   <Color x:Key="DarkSurfaceBright">#383A32</Color>
+    <Color x:Key="DarkSurfaceContainerLowest">#0C0F09</Color>   <Color x:Key="DarkSurfaceContainerLow">#1A1C16</Color>
+    <Color x:Key="DarkSurfaceContainer">#1E201A</Color>   <Color x:Key="DarkSurfaceContainerHigh">#282B24</Color>
+    <Color x:Key="DarkSurfaceContainerHighest">#33362E</Color>    <!-- Dark-Medium-Contrast -->
+    <Color x:Key="DarkMediumContrastPrimary">#C7E79E</Color>
+    <Color x:Key="DarkMediumContrastSurfaceTint">#B1D18A</Color>
+    <Color x:Key="DarkMediumContrastOnPrimary">#172B00</Color>
+    <Color x:Key="DarkMediumContrastPrimaryContainer">#7D9A59</Color>
+    <Color x:Key="DarkMediumContrastOnPrimaryContainer">#000000</Color>
+    <Color x:Key="DarkMediumContrastSecondary">#D5E1C2</Color>
+    <Color x:Key="DarkMediumContrastOnSecondary">#1F2814</Color>
+    <Color x:Key="DarkMediumContrastSecondaryContainer">#8A9579</Color>
+    <Color x:Key="DarkMediumContrastOnSecondaryContainer">#000000</Color>
+    <Color x:Key="DarkMediumContrastTertiary">#B5E6E1</Color>
+    <Color x:Key="DarkMediumContrastOnTertiary">#002B29</Color>
+    <Color x:Key="DarkMediumContrastTertiaryContainer">#6B9995</Color>
+    <Color x:Key="DarkMediumContrastOnTertiaryContainer">#000000</Color>
+    <Color x:Key="DarkMediumContrastError">#FFD2CC</Color>   <Color x:Key="DarkMediumContrastOnError">#540003</Color>
+    <Color x:Key="DarkMediumContrastErrorContainer">#FF5449</Color>
+    <Color x:Key="DarkMediumContrastOnErrorContainer">#000000</Color>
+    <Color x:Key="DarkMediumContrastBackground">#12140E</Color>
+    <Color x:Key="DarkMediumContrastOnBackground">#E2E3D8</Color>
+    <Color x:Key="DarkMediumContrastSurface">#12140E</Color>
+    <Color x:Key="DarkMediumContrastOnSurface">#FFFFFF</Color>
+    <Color x:Key="DarkMediumContrastSurfaceVariant">#44483D</Color>
+    <Color x:Key="DarkMediumContrastOnSurfaceVariant">#DBDECF</Color>
+    <Color x:Key="DarkMediumContrastOutline">#B0B3A6</Color>
+    <Color x:Key="DarkMediumContrastOutlineVariant">#8E9285</Color>
+    <Color x:Key="DarkMediumContrastShadow">#000000</Color>   <Color x:Key="DarkMediumContrastScrim">#000000</Color>
+    <Color x:Key="DarkMediumContrastInverseSurface">#E2E3D8</Color>
+    <Color x:Key="DarkMediumContrastInverseOnSurface">#282B24</Color>
+    <Color x:Key="DarkMediumContrastInversePrimary">#364F17</Color>
+    <Color x:Key="DarkMediumContrastPrimaryFixed">#CDEDA3</Color>
+    <Color x:Key="DarkMediumContrastOnPrimaryFixed">#081400</Color>
+    <Color x:Key="DarkMediumContrastPrimaryFixedDim">#B1D18A</Color>
+    <Color x:Key="DarkMediumContrastOnPrimaryFixedVariant">#253D05</Color>
+    <Color x:Key="DarkMediumContrastSecondaryFixed">#DCE7C8</Color>
+    <Color x:Key="DarkMediumContrastOnSecondaryFixed">#0B1403</Color>
+    <Color x:Key="DarkMediumContrastSecondaryFixedDim">#BFCBAD</Color>
+    <Color x:Key="DarkMediumContrastOnSecondaryFixedVariant">#303924</Color>
+    <Color x:Key="DarkMediumContrastTertiaryFixed">#BCECE7</Color>
+    <Color x:Key="DarkMediumContrastOnTertiaryFixed">#001413</Color>
+    <Color x:Key="DarkMediumContrastTertiaryFixedDim">#A0D0CB</Color>
+    <Color x:Key="DarkMediumContrastOnTertiaryFixedVariant">#083D3A</Color>
+    <Color x:Key="DarkMediumContrastSurfaceDim">#12140E</Color>
+    <Color x:Key="DarkMediumContrastSurfaceBright">#43453D</Color>
+    <Color x:Key="DarkMediumContrastSurfaceContainerLowest">#060804</Color>
+    <Color x:Key="DarkMediumContrastSurfaceContainerLow">#1C1E18</Color>
+    <Color x:Key="DarkMediumContrastSurfaceContainer">#262922</Color>
+    <Color x:Key="DarkMediumContrastSurfaceContainerHigh">#31342C</Color>
+    <Color x:Key="DarkMediumContrastSurfaceContainerHighest">#3C3F37</Color>    <!-- Dark-High-Contrast -->
+    <Color x:Key="DarkHighContrastPrimary">#DAFBB0</Color>   <Color x:Key="DarkHighContrastSurfaceTint">#B1D18A</Color>
+    <Color x:Key="DarkHighContrastOnPrimary">#000000</Color>
+    <Color x:Key="DarkHighContrastPrimaryContainer">#ADCD86</Color>
+    <Color x:Key="DarkHighContrastOnPrimaryContainer">#050E00</Color>
+    <Color x:Key="DarkHighContrastSecondary">#E9F4D5</Color>
+    <Color x:Key="DarkHighContrastOnSecondary">#000000</Color>
+    <Color x:Key="DarkHighContrastSecondaryContainer">#BCC7A9</Color>
+    <Color x:Key="DarkHighContrastOnSecondaryContainer">#060D01</Color>
+    <Color x:Key="DarkHighContrastTertiary">#C9F9F5</Color>   <Color x:Key="DarkHighContrastOnTertiary">#000000</Color>
+    <Color x:Key="DarkHighContrastTertiaryContainer">#9CCCC7</Color>
+    <Color x:Key="DarkHighContrastOnTertiaryContainer">#000E0D</Color>
+    <Color x:Key="DarkHighContrastError">#FFECE9</Color>   <Color x:Key="DarkHighContrastOnError">#000000</Color>
+    <Color x:Key="DarkHighContrastErrorContainer">#FFAEA4</Color>
+    <Color x:Key="DarkHighContrastOnErrorContainer">#220001</Color>
+    <Color x:Key="DarkHighContrastBackground">#12140E</Color>
+    <Color x:Key="DarkHighContrastOnBackground">#E2E3D8</Color>
+    <Color x:Key="DarkHighContrastSurface">#12140E</Color>   <Color x:Key="DarkHighContrastOnSurface">#FFFFFF</Color>
+    <Color x:Key="DarkHighContrastSurfaceVariant">#44483D</Color>
+    <Color x:Key="DarkHighContrastOnSurfaceVariant">#FFFFFF</Color>
+    <Color x:Key="DarkHighContrastOutline">#EEF2E2</Color>
+    <Color x:Key="DarkHighContrastOutlineVariant">#C1C4B6</Color>
+    <Color x:Key="DarkHighContrastShadow">#000000</Color>   <Color x:Key="DarkHighContrastScrim">#000000</Color>
+    <Color x:Key="DarkHighContrastInverseSurface">#E2E3D8</Color>
+    <Color x:Key="DarkHighContrastInverseOnSurface">#000000</Color>
+    <Color x:Key="DarkHighContrastInversePrimary">#364F17</Color>
+    <Color x:Key="DarkHighContrastPrimaryFixed">#CDEDA3</Color>
+    <Color x:Key="DarkHighContrastOnPrimaryFixed">#000000</Color>
+    <Color x:Key="DarkHighContrastPrimaryFixedDim">#B1D18A</Color>
+    <Color x:Key="DarkHighContrastOnPrimaryFixedVariant">#081400</Color>
+    <Color x:Key="DarkHighContrastSecondaryFixed">#DCE7C8</Color>
+    <Color x:Key="DarkHighContrastOnSecondaryFixed">#000000</Color>
+    <Color x:Key="DarkHighContrastSecondaryFixedDim">#BFCBAD</Color>
+    <Color x:Key="DarkHighContrastOnSecondaryFixedVariant">#0B1403</Color>
+    <Color x:Key="DarkHighContrastTertiaryFixed">#BCECE7</Color>
+    <Color x:Key="DarkHighContrastOnTertiaryFixed">#000000</Color>
+    <Color x:Key="DarkHighContrastTertiaryFixedDim">#A0D0CB</Color>
+    <Color x:Key="DarkHighContrastOnTertiaryFixedVariant">#001413</Color>
+    <Color x:Key="DarkHighContrastSurfaceDim">#12140E</Color>
+    <Color x:Key="DarkHighContrastSurfaceBright">#4F5149</Color>
+    <Color x:Key="DarkHighContrastSurfaceContainerLowest">#000000</Color>
+    <Color x:Key="DarkHighContrastSurfaceContainerLow">#1E201A</Color>
+    <Color x:Key="DarkHighContrastSurfaceContainer">#2F312A</Color>
+    <Color x:Key="DarkHighContrastSurfaceContainerHigh">#3A3C35</Color>
+    <Color x:Key="DarkHighContrastSurfaceContainerHighest">#454840</Color>
+    
+    sudo apt install ark 7zip</ResourceDictionary>
