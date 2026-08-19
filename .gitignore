@@ -16,12 +16,15 @@ bin/internal/engine.version
 .buildlog/
 .history
 .svn/
+.idea/
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+**/bin/
+**/obj/
 
 # Visual Studio Code related
 .classpath
@@ -313,3 +316,5 @@ app.*.symbols
 .gclient_previous_custom_vars
 .gclient_previous_sync_commits
 
+node_modules
+**/node_modules/

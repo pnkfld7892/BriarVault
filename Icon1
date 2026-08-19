@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="Icon1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.73827583"
+     inkscape:cx="419.22001"
+     inkscape:cy="528.25785"
+     inkscape:window-width="2560"
+     inkscape:window-height="1381"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 116.27197,103.60246 a 22.300341,5.3216724 0 0 1 -22.256003,4.98523 22.300341,5.3216724 0 0 1 -22.117513,-4.64261 23.694113,26.354948 0 0 0 -1.449524,9.07696 23.694113,26.354948 0 0 0 23.694161,26.35498 23.694113,26.354948 0 0 0 15.025439,-5.97689 c 0,0 0,0 0,0 a 23.694113,26.354948 0 0 0 7.84655,-13.49634 c 0,0 0,0 0,0 a 23.694113,26.354948 0 0 0 0.82217,-6.88175 23.694113,26.354948 0 0 0 -1.56528,-9.41958 z"
+       style="fill:#552200;stroke:#000000;stroke-width:0.264583;fill-opacity:1"
+       id="path12" />
+    <path
+       d="m 94.015967,97.943892 a 22.300341,5.3216724 0 0 0 -21.247799,3.706748 23.694113,26.354948 0 0 0 -0.869714,2.29444 22.300341,5.3216724 0 0 0 22.117513,4.64261 22.300341,5.3216724 0 0 0 22.256003,-4.98523 23.694113,26.354948 0 0 0 -0.61391,-1.62057 22.300341,5.3216724 0 0 0 -21.642093,-4.037998 z m 0.506946,2.769338 a 18.994143,2.6430528 0 0 1 18.994187,2.64325 18.994143,2.6430528 0 0 1 -18.994187,2.64273 18.994143,2.6430528 0 0 1 -18.99419,-2.64273 18.994143,2.6430528 0 0 1 18.99419,-2.64325 z"
+       style="fill:#552200;stroke:#000000;stroke-width:0.264583;fill-opacity:1"
+       id="path14" />
+    <path
+       d="m 117.81393,113.8417 c -1.28742,7.46644 -4.78044,14.58061 -8.59277,19.48561 3.77153,-1.90012 8.25882,-3.70328 12.6215,-5.14765 13.48449,-4.46437 19.24538,-6.60717 19.24538,-6.60717 l -1.39272,-7.05362 c 0,0 -21.45117,9.58087 -21.85512,-0.0509 z"
+       style="fill:#552200;fill-opacity:1;stroke:#000000;stroke-width:0.313989"
+       id="path13"
+       sodipodi:nodetypes="ccsccsc" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.338829;stroke-opacity:1"
+       id="rect14"
+       width="1.7943919"
+       height="7.1530867"
+       x="112.38521"
+       y="158.33606"
+       transform="matrix(0.9353187,-0.35380635,0.20721039,0.97829641,0,0)" />
+    <path
+       id="path16"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.313989;stroke-opacity:1"
+       d="m 172.04529,107.51449 c 0,0 -32.64397,6.10852 -32.4453,6.87549 0.22362,0.86325 1.53515,7.03143 1.53515,7.03143 0,0 16.98294,-7.72459 31.98631,-8.54951 -0.44314,-2.85719 -1.07616,-5.35741 -1.07616,-5.35741 z"
+       sodipodi:nodetypes="csccc" />
+    <ellipse
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.320729;stroke-opacity:1"
+       id="path21"
+       cx="151.42371"
+       cy="172.73241"
+       rx="0.71537602"
+       ry="2.9071615"
+       transform="matrix(0.91982735,-0.39232339,0.19185995,0.98142231,0,0)" />
+  </g>
+</svg>
