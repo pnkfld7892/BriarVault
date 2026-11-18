@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'briarVaultIcons_icons.dart';
-import 'theme.dart';
-import 'util.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -14,18 +10,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final brightness = View.of(context).platformDispatcher.platformBrightness;
-
-    // Retrieves the default theme for the platform
-    //TextTheme textTheme = Theme.of(context).textTheme;
-
-    // Use with Google Fonts package to use downloadable fonts
-    TextTheme textTheme = createTextTheme(context, "Merriweather Sans", "Merriweather");
-
-    MaterialTheme theme = MaterialTheme(textTheme);
     return MaterialApp(
-      title: 'BriarVault',
-      theme: brightness == Brightness.light ? theme.light() : theme.dark(),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+
+        colorScheme: .fromSeed(seedColor: Color.fromARGB(255, 200, 255, 250)),
+      ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -33,6 +23,15 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
+
+  // This widget is the home page of your application. It is stateful, meaning
+  // that it has a State object (defined below) that contains fields that affect
+  // how it looks.
+
+  // This class is the configuration for the state. It holds the values (in this
+  // case the title) provided by the parent (in this case the App widget) and
+  // used by the build method of the State. Fields in a Widget subclass are
+  // always marked "final".
 
   final String title;
 
@@ -45,7 +44,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      _counter++; 
+      // This call to setState tells the Flutter framework that something has
+      // changed in this State, which causes it to rerun the build method below
+      // so that the display can reflect the updated values. If we changed
+      // _counter without calling setState(), then the build method would not be
+      // called again, and so nothing would appear to happen.
+      _counter++;
     });
   }
 
@@ -65,29 +69,8 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title,textAlign:TextAlign.center),
+        title: Text(widget.title),
       ),
-      drawer: Drawer(child:ListView(
-      children: [
-        ListTile(
-         title:Text("Settings"),
-        )
-      ],
-      )),
-      bottomNavigationBar: NavigationBar(destinations:[
-       Column(
-         children: [
-           IconButton(icon: Icon(BriarVaultIcons.smokePipeOutline),onPressed: (){},selectedIcon:Icon(BriarVaultIcons.smokePipe),isSelected:true),
-           Text("My Pipes")
-         ],
-       ),
-       Column(
-         children: [
-           IconButton(icon: Icon(BriarVaultIcons.cellarOutline),onPressed: (){},selectedIcon:Icon(BriarVaultIcons.cellar)),
-           Text("My Cellar")
-         ],
-       ) 
-      ]),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
@@ -105,11 +88,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+          mainAxisAlignment: .center,
+          children: [
+            const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -121,8 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
-

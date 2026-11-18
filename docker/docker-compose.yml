@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres-briar-vault
+    restart: always
+    environment:
+      POSTGRES_USER: bvUser
+      POSTGRES_PASSWORD: secure
+      POSTGRES_DB: briar-vault
+    ports:
+      - "5432:5432"
+    volumes:
+      - /home/eli/git/BriarVault/db-data/:/var/lib/postgres/data/
